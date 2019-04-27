@@ -25,8 +25,7 @@ Clone the repo, then open index.html, then press action button and start talking
 
 ### Cross-browser support
 
-(Cross broswer example)[https://ai.github.io/audio-recorder-polyfill/]
-
+[Cross broswer example](https://ai.github.io/audio-recorder-polyfill/)
 It makes use of the (Media Rocorder Web API)[https://ai.github.io/audio-recorder-polyfill/api/MediaRecorder.html] and as a Polyfill for it uses (Audio Recorder Polyfill)[https://github.com/ai/audio-recorder-polyfill]
 
 To Install package:
