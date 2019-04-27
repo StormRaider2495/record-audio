@@ -41,6 +41,8 @@ const handleAction = async (action) => {
     startButton.disabled = true;
     const stopButton = document.getElementById('stop');
     stopButton.disabled = false;
+    const playButton = document.getElementById('play');
+    playButton.disabled = true;
     recorder.start();
   }
   if (action === 'stop-record') {
@@ -54,8 +56,8 @@ const handleAction = async (action) => {
     audio.play();
     const startButton = document.getElementById('start');
     startButton.disabled = false;
-    const playButton = document.getElementById('play');
-    playButton.disabled = true;
+    // const playButton = document.getElementById('play');
+    // playButton.disabled = true;
   }  
   
   // const recorder = await recordAudio();
