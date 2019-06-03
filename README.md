@@ -28,6 +28,8 @@ Clone the repo, then open index.html, then press action button and start talking
 [Cross broswer example](https://ai.github.io/audio-recorder-polyfill/)
 
 It makes use of the [Media Rocorder Web API](https://ai.github.io/audio-recorder-polyfill/api/MediaRecorder.html) and as a Polyfill for it uses [Audio Recorder Polyfill](https://github.com/ai/audio-recorder-polyfill)
+[Download Example](https://webaudiodemos.appspot.com/AudioRecorder/index.html#)
+[Record audio in Details](https://air.ghost.io/recording-to-an-audio-file-using-html5-and-js/)
 
 To Install package:
 ```sh
